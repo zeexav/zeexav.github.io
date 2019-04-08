@@ -1,24 +1,25 @@
 #home_h1 {
     
-    background-color: midnightblue;
-    color: whitesmoke;
     padding-right: 10px;
     margin-left: 50px;
-    font-style: oblique;
+    font-style: oblique;}
    
-    
+.logo{
+width:150px;
+height:30px;
+       
 }
 
 h4{
-    color: midnightblue;
+    color: #2F5597;
 }
 
 h3{
-    color: midnightblue;
+    color:#2F5597;
 }
 
 #compare{
-    color: midnightblue;
+    color:#2F5597;
     margin-top: 25px;
 
 }
@@ -66,20 +67,24 @@ h3{
     .navbar li {
       padding: 5px;
     }
-  
-    .post {
-      margin-right: 30px;
-      margin-left: 30px;
+
+    .logo{
+        width:100px;
+        height: 30px;
     }
   
-      #home_h1{
+  
+    #home_h1{
         font-size: 24px;
     }
 
     .hm_viz{
         width:80%;
         margin:auto;
-         
+    }
+
+    h3{
+        font-size: 24px;
     }
 
     
