@@ -1,0 +1,89 @@
+#home_h1 {
+    
+    background-color: midnightblue;
+    color: whitesmoke;
+    padding-right: 10px;
+    margin-left: 50px;
+    font-style: oblique;
+   
+    
+}
+
+h4{
+    color: midnightblue;
+}
+
+h3{
+    color: midnightblue;
+}
+
+#compare{
+    color: midnightblue;
+    margin-top: 25px;
+
+}
+
+
+.body_all{
+    background-color:lightsteelblue;}
+
+.desc{
+    margin-top: 40px;
+   
+}
+
+.img_sml{
+    width: 250px;
+    height: 200px;
+   
+     
+}
+
+.img_viz_hm{
+    width: 150px;
+   
+}
+
+.img_viz{
+    width: 100%;
+}
+
+.fig_desc{
+    font-size: 10px;
+    text-align: center;
+
+}
+.hm_viz{
+    width: 30%;
+   
+
+}
+
+
+@media (max-width: 480px) {
+
+
+    .navbar li {
+      padding: 5px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+      #home_h1{
+        font-size: 24px;
+    }
+
+    .hm_viz{
+        width:80%;
+        margin:auto;
+         
+    }
+
+    
+    
+  
+
+}
