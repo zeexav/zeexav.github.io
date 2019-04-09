@@ -24,6 +24,14 @@ h3{
 
 }
 
+.navbg{
+    background-color: #f9f9f9;
+}
+
+.navtxt{
+    color: #2F5597;
+}
+
 
 .body_all{
     background-color:lightsteelblue;}
@@ -47,6 +55,8 @@ h3{
 
 .img_viz{
     width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .fig_desc{
@@ -56,17 +66,22 @@ h3{
 }
 .hm_viz{
     width: 30%;
-   
-
 }
 
 
-@media (max-width: 480px) {
 
 
-    .navbar li {
-      padding: 5px;
-    }
+
+@media (max-width: 576px) {
+
+    .navbg{
+        background-color: #2F5597; 
+       
+          }
+        
+    .collapse navbar-collapse li{
+        padding: 2px;
+      }
 
     .logo{
         width:100px;
@@ -78,17 +93,24 @@ h3{
         font-size: 24px;
     }
 
-    .hm_viz{
-        width:80%;
-        margin:auto;
-    }
 
     h3{
         font-size: 24px;
     }
 
+    .img_comp{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+ 
+
+}
+
+
+      
     
     
   
 
-}
