@@ -31,4 +31,19 @@ a.homedescript{
     width: 800px;
 }
 
+ul#menu li {
+    display:inline;
+    list-style-type: circle;
+   
+  }
+
+.projbground{
+    
+    background-image: url(Images/Polygon_01.jpg);
+    width: 100%;
+    height: 1200px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* overflow: hidden; */
+}
 

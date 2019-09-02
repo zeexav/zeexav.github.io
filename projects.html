@@ -14,7 +14,7 @@
    
     <title>ZXL-Home</title>
   </head>
-  <body class = "homebground">
+  <body class = "projbground">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 
@@ -37,21 +37,23 @@
 
               <div class = "row mt-5">
 
-                  <div class="card mb-3 mx-auto" style="max-width: 800px;">
+                    <div class="card mb-3 mx-auto" style="max-width: 1000px;">
                       <div class="row no-gutters">
                         <div class="col-md-4">
                           <img src="Images/tzp3_img.png" class="card-img" alt="TZP3 movie recommendation system">
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
+                         
+                           
                             <h5 class="card-title">Project Summary</h5>
-                            <p class="card-text"><a href ="https://github.com/zeexav/TZP3" target="_blank">TZP3 Repo</a></p>
-                            <p class="card-text">A recommender system that suggest movies to a user based on a movie title and the user’s rating history. The system is a hybrid Recommender system which combines Content-based and Collaboarative filtering methods.</p>
-
-                            <p class="card-text"> Application built using Python with Sci-kit Learn and SciPy Machine Learning models, Flask, HTML and Bootstrap.
-
-                            </p>
-
+                            <ul>
+                                <li class="card-text"><a href ="https://github.com/zeexav/TZP3" target="_blank">TZP3 Repo</a></li>
+                                <li class = "card-text"><a href ="https://tzp3-movie-recsys.herokuapp.com/" target="_blank">TZP3 Heroku App</a></li>
+                              </ul>
+                           
+                            <p class="card-text">A hybrid Recommender System that recommends movies to a user based on a movie title and the user’s rating history. The system combines Content-based Filtering using Scikit-Learn feature extraction using Count Vectorization and Pairwise Cosine_Similarity to similar movies and Model-based Collaborative Filtering using SciPy SVDs to predict the rating a user will give a movie based on their previous ratings history. The system searches the user's predicted top rated movies( Collaborative filter results) to find titles similar to the movie title submitted (Content-based filter results). The top results are returned.  </p> 
+                       
                           </div>
                         </div>
                       </div>
@@ -61,7 +63,7 @@
               </div>
               <div class = "row mt-2 ">
 
-                  <div class="card mb-3 mx-auto " style="max-width: 800px;">
+                  <div class="card mb-3 mx-auto " style="max-width: 1000px;">
                       <div class="row no-gutters">
                         <div class="col-md-4">
                           <img src="Images/ETL_img.png" class="card-img" alt="Chicago Red-light and Speeding Camera ETL">
@@ -70,8 +72,9 @@
                           <div class="card-body">
                             <h5 class="card-title">Project Summary</h5>
                             <p class="card-text"><a href = "https://github.com/zeexav/traffic_violations_etl" target="_blank">Traffic Violations ETL repo</a></p>
-                            <p class="card-text">This is an ETL Pipeline to explore the relationship between traffic camera violations and the economic make-up of the community they are located in. The economic factors considered were median home vaue and median household income.  </p>
-                            <p class="card-text">Data Extraction and Transformation completed using Python and MySQL</small></p>
+                            <p class="card-text">This is an ETL Pipeline to explore the relationship between traffic camera violations  in Chicago and the economic make-up of the community they are located in. The economic factors considered were median home vaue and median household income.</p>
+                            <p>The traffic violations data was sourced from Chicago Open Data and the economic data from USZipcodes API.  The datasets were both cleaned, transformed and then merged using the zipcode. Several views were created in MySQL to easily complete analysis on various combinations of the data. </p>
+                            
                           </div>
                         </div>
                       </div>
@@ -81,6 +84,29 @@
 
 
               </div>
+
+              <div class = "row mt-2 ">
+
+                <div class="card mb-3 mx-auto " style="max-width: 1000px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="Images/mars_project_new.png" class="card-img" alt="Mission to Mars: Web Scraping using BeautifulSoup">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Project Summary</h5>
+                          <p class="card-text"><a href = "https://github.com/zeexav/mars_project" target="_blank">Mars Project: Web Scraping Repo</a></p>
+                          <p class="card-text">Using BeautifulSoup and Requests/Splinter, I scraped the NASA Mars news site and stored the information in a MongoDB database. Each time the app is run, the data is scraped and stored in the database. The web page is populated by querying the database and loading the results into the web page.</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+            </div>
 
           </div>
 
